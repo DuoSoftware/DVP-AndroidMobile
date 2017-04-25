@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_comment"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your comment"
+        android:layout_gravity="center_horizontal" />
+    <RadioGroup
+        android:id="@+id/commentRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="5dp"
+        >
+        <RadioButton
+            android:id="@+id/rbCommentPublic"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:text="Public"
+            android:checked="true"
+            android:lines="1"/>
+        <RadioButton
+            android:id="@+id/rbCommentInternal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:text="Internal"
+            android:lines="1"/>
+        <RadioButton
+            android:id="@+id/rbCommentPrivate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:text="Private"
+            android:lines="1"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_ok_comment"
+        android:layout_gravity="right" />
+
+</LinearLayout>

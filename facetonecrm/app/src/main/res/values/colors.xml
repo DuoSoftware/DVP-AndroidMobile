@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007670</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#04756f</color>
+
+    <color name="logWhiteBackground">#F7F5F5</color>
+    <color name="logDarkBackgroung">#103439</color>
+    <color name="logGrayText">#5E7687</color>
+    <color name="logAgentConsoleColor">#5FC86B</color>
+    <color name="logLogBtnColor">#D3C340</color>
+
+
+    <color name="customDarkBlue">#04756f</color>
+    <color name="customLightBlue">#14d0a0</color>
+    <color name="customGrey">#8298ae</color>
+    <color name="customLightYellow">#a1d700</color>
+    <color name="customDarkYellow">#d2c242</color>
+    <color name="customGreen">#36ba45</color>
+    <color name="customBlack">#0d1c33</color>
+    <color name="offline">#f19c0a</color>
+
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+</resources>

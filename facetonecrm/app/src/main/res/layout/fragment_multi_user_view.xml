@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/engagementMultiCompanyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/customBlack"/>
+            <TextView
+                android:id="@+id/engagementMultiCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duo Software"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/engagementMultiDirectionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direction"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/customBlack"/>
+
+            <TextView
+                android:id="@+id/engagementMultiDirection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inbound"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/engagementMultiFromText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/customBlack"/>
+
+            <TextView
+                android:id="@+id/engagementMultiFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+9473445443"
+                android:textColor="@color/customGreen"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/engagementMultiSkillText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skill"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/customBlack"/>
+
+            <TextView
+                android:id="@+id/engagementMultiSkill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Implementation"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/multi_user_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="72dp"
+        app:fabSize="normal"
+        android:src="@android:drawable/ic_input_add"/>
+
+</android.support.design.widget.CoordinatorLayout>

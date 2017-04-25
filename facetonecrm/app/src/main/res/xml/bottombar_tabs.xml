@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <tabs>
+        <tab
+            barColorWhenSelected="@color/customBlack"
+            icon="@drawable/ic_bottombarhome"
+            id="@+id/tab_home"
+            title="home" />
+        <tab
+            barColorWhenSelected="@color/customBlack"
+            icon="@drawable/ic_bottombarinbox"
+            id="@+id/tab_inbox"
+            title="inbox" />
+        <tab
+            barColorWhenSelected="@color/customBlack"
+            icon="@drawable/ic_bottombarengagement"
+            id="@+id/tab_engagement"
+            title="engagement" />
+        <tab
+            barColorWhenSelected="@color/customBlack"
+            icon="@drawable/ic_bottombarnotificatoin_"
+            id="@+id/tab_notification"
+            title="notification" />
+    </tabs>
+</resources>

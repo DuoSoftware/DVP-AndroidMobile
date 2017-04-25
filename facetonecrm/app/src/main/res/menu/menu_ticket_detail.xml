@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_ticket_detail_edit"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit_white_24dp"
+        app:showAsAction ="ifRoom" />
+    <item
+        android:id="@+id/menu_ticket_detail_pick"
+        android:title="Pick"
+        app:showAsAction ="never" />
+    <item
+        android:id="@+id/menu_ticket_detail_forward"
+        android:title="Forward"
+        app:showAsAction ="never" />
+    <item
+        android:id="@+id/menu_ticket_detail_change_status"
+        android:title="Change status"
+        app:showAsAction ="never" />
+    <item
+        android:id="@+id/menu_ticket_detail_sub"
+        android:title="Create sub ticket"
+        app:showAsAction ="never" />
+
+
+</menu>

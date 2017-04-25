@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/statelist_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/notification_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="something very big1111111111111111 asascasd asasdasd" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/message_from_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By "
+                android:textColor="@color/customBlack" />
+
+            <TextView
+                android:id="@+id/message_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/message_from_text"
+                android:text="someone here"
+                android:textColor="@color/customBlack" />
+
+            <TextView
+                android:id="@+id/message_created"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="11 hours ago"
+                android:textColor="@color/customGreen" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/priority_bulb"
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "260058487091",
+    "firebase_url": "https://duo-veery.firebaseio.com",
+    "project_id": "duo-veery",
+    "storage_bucket": "duo-veery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260058487091:android:889f307051ca5e99",
+        "android_client_info": {
+          "package_name": "apps.veery.com.facetonecrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260058487091-hjo6prg94af5rpv35ocbnkg1vb7rc0tv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "260058487091-ko7gcp33dijq6e3b8omgbg1f1nfh2nsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxzPCgJSts4DsDfiA-wx7dFspOVPe3LiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

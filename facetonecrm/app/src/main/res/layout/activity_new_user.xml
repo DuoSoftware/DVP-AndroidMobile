@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.veery.com.facetonecrm.NewUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/newUserInfoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERSONAL INFORMATION"
+            android:textColor="@color/customLightBlue"/>
+
+
+        <EditText
+            android:id="@+id/newUserFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name*"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name*"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserNickName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nick Name"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number*"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/newUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email*"
+            android:inputType="textEmailAddress"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/newUserBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set birth date" />
+
+            <TextView
+                android:id="@+id/newUserBirthText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/newUserAddressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/customLightBlue"/>
+
+
+        <EditText
+            android:id="@+id/newUserPOBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="P.O. Box/ Building No"
+            android:inputType="number"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/newUserStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street"
+            android:maxLines="1"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/newUserCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserProvince"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Province"
+            android:maxLines="1"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/newUserCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zip Code"
+            android:inputType="number"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/newUserSSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SSN*"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/newUserTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tags" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/newUserSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/newUserCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group>
+    <group android:id="@+id/nav_first_menu" >
+        <item
+            android:checkable="false"
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Register"
+            />
+        <item
+            android:id="@+id/nav_call"
+            android:checkable="true"
+            android:title="call"
+            app:actionLayout="@layout/nav_count_item"/>
+        <item
+            android:id="@+id/nav_ticket"
+            android:checkable="true"
+            android:title="ticket"
+            app:actionLayout="@layout/nav_count_item"/>
+    </group>
+
+    <group android:id="@+id/nav_second_menu">
+
+        <item
+            android:checkable="false"
+            android:id="@+id/nav_break"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Break"
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_available"
+            android:title="available"
+            app:actionLayout="@layout/nav_count_item"
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_official"
+            android:title="official"
+            app:actionLayout="@layout/nav_count_item"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_meal"
+            android:title="meal"
+            app:actionLayout="@layout/nav_count_item"/>
+
+    </group>
+    <group  android:id="@+id/nav_third_menu">
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="LOGOUT" />
+    </group>
+</group>
+
+
+</menu>

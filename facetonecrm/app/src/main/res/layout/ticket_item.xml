@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tickets_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/statelist_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ticket_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="3dp"
+                android:layout_toLeftOf="@+id/countContainer"
+                android:maxLines="1"
+                android:paddingRight="16dp"
+                android:text="adasda"
+                android:textColor="@color/customLightBlue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/countContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ticket_status"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/ic_stat_comments" />
+
+                <TextView
+                    android:id="@+id/ticket_comment_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="0" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ticket_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:minWidth="60dp"
+                android:text="1243"
+                android:textColor="@color/customLightYellow"
+                android:background="@drawable/corner_radius"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ticket_priority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ticket_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ticket_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ticket_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="something very big1111111111111111 asascasd asasdasd" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/ticket_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By "
+                android:textColor="@color/customBlack" />
+
+            <TextView
+                android:id="@+id/ticket_reference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ticket_by"
+                android:text="someone here"
+                android:textColor="@color/customBlack" />
+
+            <TextView
+                android:id="@+id/ticket_created"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/channel_image"
+                android:text="11 hours ago"
+                android:textColor="@color/customGreen" />
+            <ImageView
+                android:id="@+id/channel_image"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/facebook_icon"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/priority_bulb"
+        android:layout_width="5dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
